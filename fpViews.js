@@ -24,7 +24,7 @@ var fpViews = function()
                 onClick: function()
                 {
                  	var utils = new fpUtils();
-                    var apiKey = 'AIzaSyB01qMKPma7RpTk-e-V893ioTRvjTIwLiU';
+                    var apiKey = '';
                   	var thisModel = this.model;
 					$.ajax({
 					  url: "dbConnect",
